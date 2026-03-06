@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet"
+href="{{ url_for('static',
+filename='style.css')}}">
+</head>
+<body>
+<h1>Welcome {{username}}</h1>
+<p>You have successfully logged into the secure dashboard.</p>
+<a href="/logout">
+<button>Logout</button>
+</a>
+</body>
+</html>
